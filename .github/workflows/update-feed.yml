@@ -1,0 +1,60 @@
+name: Update podcast feed
+
+on:
+  schedule:
+    # Every Monday at 13:00 UTC.
+    - cron: "0 13 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate feed
+        id: generate
+        run: npm run generate-feed
+
+      - name: Open pull request
+        id: pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: refresh podcast feed"
+          title: "Weekly podcast feed refresh"
+          body: |
+            Automated weekly refresh of `feed.xml` from the
+            [Timeless Conversations](https://www.timelesspartners.com/journal/conversations) listing page.
+
+            - New episodes discovered: ${{ steps.generate.outputs.new_episode_count }} (${{ steps.generate.outputs.new_episode_titles }})
+            - Total episodes in feed: ${{ steps.generate.outputs.total_episode_count }}
+            - Episodes missing a resolved audio file: ${{ steps.generate.outputs.missing_audio_count }}
+
+            This PR was created automatically and needs no manual steps to open. Review the diff before merging.
+          branch: automated/update-feed
+          delete-branch: true
+          labels: automated
+          add-paths: |
+            feed.xml
+            data/episodes-state.json

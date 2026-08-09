@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Placeholder feed. This file is regenerated automatically by
+  .github/workflows/update-feed.yml (via scripts/generate-feed.mjs), which
+  runs weekly and also on-demand from the Actions tab. Run it once to
+  populate this file with real episodes.
+-->
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The 100 Year Conversation — Timeless</title>
+    <link>https://www.timelesspartners.com/journal/conversations</link>
+    <description>Once a month, we sit with the leaders of institutions that have lasted decades or centuries. We ask them how they endured. We publish what they tell us. (Unofficial feed, not affiliated with or published by Timeless Partners.)</description>
+    <language>en-us</language>
+  </channel>
+</rss>

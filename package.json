@@ -1,0 +1,14 @@
+{
+  "name": "timeless-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial RSS podcast feed generator for Timeless Partners' \"The 100 Year Conversation\" series.",
+  "scripts": {
+    "generate-feed": "node scripts/generate-feed.mjs"
+  },
+  "dependencies": {
+    "linkedom": "^0.18.5",
+    "playwright": "^1.48.0"
+  }
+}
