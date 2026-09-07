@@ -1,15 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Placeholder feed. This file is regenerated automatically by
-  .github/workflows/update-feed.yml (via scripts/generate-feed.mjs), which
-  runs weekly and also on-demand from the Actions tab. Run it once to
-  populate this file with real episodes.
--->
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>The 100 Year Conversation — Timeless</title>
     <link>https://www.timelesspartners.com/journal/conversations</link>
     <description>Once a month, we sit with the leaders of institutions that have lasted decades or centuries. We ask them how they endured. We publish what they tell us. (Unofficial feed, not affiliated with or published by Timeless Partners.)</description>
     <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 18:02:56 GMT</lastBuildDate>
+    <itunes:author>Timeless Partners</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"/>
+    <itunes:image href="https://www.timelesspartners.com/images/seo/social.jpg"/>
+    <image>
+      <url>https://www.timelesspartners.com/images/seo/social.jpg</url>
+      <title>The 100 Year Conversation — Timeless</title>
+      <link>https://www.timelesspartners.com/journal/conversations</link>
+    </image>
+    <item>
+      <title>In Conversation with Nikesh Arora</title>
+      <link>https://www.timelesspartners.com/journal/conversations/nikesh-arora</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/nikesh-arora</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[Nikesh Arora on risk, rejection, Google, SoftBank, Palo Alto Networks, cybersecurity, and building a culture that survives technological change.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/nikesh-arora/nikesh-arora.webp"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Wayne Peacock</title>
+      <link>https://www.timelesspartners.com/journal/conversations/wayne-peacock</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/wayne-peacock</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[Crisis, continuity, and stewarding USAA into its second century.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/seo/social.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Dan Akerson</title>
+      <link>https://www.timelesspartners.com/journal/conversations/dan-akerson</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/dan-akerson</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[Dan Akerson reflects on competition, transition, and reinvention across five decades of American industry.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/dan-akerson/dan-akerson.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Nicholas Thompson</title>
+      <link>https://www.timelesspartners.com/journal/conversations/nicholas-thompson</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/nicholas-thompson</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[Nicholas Thompson of The Atlantic on restlessness, judgment, and keeping journalism alive. Interview No. 005 in The 100 Year Conversation by Timeless.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/nicholas-thompson/cover.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Tyler Cowen</title>
+      <link>https://www.timelesspartners.com/journal/conversations/tyler-cowen</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/tyler-cowen</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[Tyler Cowen of the Mercatus Center on curiosity, compounding, and the institutions that endure. Interview No. 004 in The 100 Year Conversation by Timeless.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/tyler-cowen/Tyler-Cowen-v2.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Max Levchin</title>
+      <link>https://www.timelesspartners.com/journal/conversations/max-levchin</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/max-levchin</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[An intimate conversation where Max Levchin reflects on growing up in the Soviet Union, surviving Chernobyl, the failures before PayPal, lessons from Slide, and building Affirm with intellectual honesty.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/max-levchin/max-levchin-new.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with General David Petraeus</title>
+      <link>https://www.timelesspartners.com/journal/conversations/general-david-petraeus</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/general-david-petraeus</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[General David H. Petraeus shares insights on strategic leadership from 37 years in uniform, commanding forces in Iraq and Afghanistan, and leading the CIA.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/general-david-petraeus/general-david-petraeus-v2.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>In Conversation with Michael Dell</title>
+      <link>https://www.timelesspartners.com/journal/conversations/michael-dell</link>
+      <guid isPermaLink="true">https://www.timelesspartners.com/journal/conversations/michael-dell</guid>
+      <pubDate>Mon, 07 Sep 2026 17:58:04 GMT</pubDate>
+      <description><![CDATA[An intimate conversation where Michael Dell reflects on four decades as Founder and CEO. Resilience, adaptability and risk across forty-one years.]]></description>
+      <itunes:image href="https://www.timelesspartners.com/images/interviews/michael-dell/michael-dell-v2.jpg"/>
+      <enclosure url="https://www.timelesspartners.com/audio/ai-disclaimer.mp3" length="102754" type="audio/mpeg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
